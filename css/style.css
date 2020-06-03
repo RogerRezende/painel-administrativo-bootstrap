@@ -8,6 +8,11 @@
 /*definição do body*/
 body{
 	background: #eff1f4ff;
+	overflow-x: hidden;
+}
+/*definição do page-content-wrapper*/
+#page-content-wrapper{
+	min-width: 100vw;
 }
 /*definição da navbar*/
 #proj-navbar{
