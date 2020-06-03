@@ -19,6 +19,17 @@
 #navbar-search-field{
 	width: 100%;
 }
+/*definição da imagem do profile*/
+#navbar-profile img{
+	border-radius: 50%;
+	width: 12%;
+}
+/*definição da span do profile*/
+#navbar-profile span{
+	padding-left: 4%;
+	color: #262d37ff;
+	font-family: 'Nunito', sans-serif;
+}
 /*definição dos campos*/
 .proj-form-field{
 	border-radius: 9px;
