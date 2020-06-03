@@ -1,0 +1,13 @@
+/* 
+	fontes utilizadas por esse painel
+
+	font-family: 'Nunito', sans-serif;
+	font-family: 'Nunito Sans', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Nunito:wght@200&display=swap');
+/*definição do brand*/
+#navbar-site-title{
+	font-family: 'Nunito', sans-serif;
+	font-size: 18px;
+	padding-left: 1.2%;
+}
