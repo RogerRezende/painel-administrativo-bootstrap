@@ -11,3 +11,27 @@
 	font-size: 18px;
 	padding-left: 1.2%;
 }
+/*definição do form*/
+#navbar-search-form{
+	width: 350px;
+}
+/*definição do tamanho do campo busca*/
+#navbar-search-field{
+	width: 100%;
+}
+/*definição dos campos*/
+.proj-form-field{
+	border-radius: 9px;
+	border-width: 1px;
+	border-color: #bacad6ff;
+	box-shadow: 0px 1px 2px rgba(164,164,164,0.2);
+	color: #000;
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+}
+/*definição do placeholder dos campos*/
+.proj-form-field::placeholder{
+	color: #c4c8ccff;
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+}
