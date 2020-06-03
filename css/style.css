@@ -21,6 +21,39 @@ body{
 		width: 100%;
 	}
 }
+/*definição do sidebar*/
+#sidebar-wrapper{
+	min-height: 100vh;
+	/*margin-left: -18rem;*/
+	background-color: #3e4856ff;
+}
+/*definição do sidebar-heading*/
+#sidebar-wrapper .sidebar-heading{
+	padding: 1.0rem 1.25rem;
+	background-color: #262d37ff;
+	color: #fff;
+	height: 58px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+}
+/*definição do list-group*/
+#sidebar-wrapper .list-group{
+	width: 18rem;
+}
+/*definição do list-group-item*/
+#sidebar-wrapper .list-group-item{
+	padding: 10%;
+	padding-left: 15%;
+	background-color: #3e4856ff;
+	color: #fff;
+	border: none;
+	font-family: 'Nunito', sans-serif;
+}
+/*definição do list-group-item hover*/
+#sidebar-wrapper .list-group-item:hover{
+	background-color: #262e39f0;
+	color: #fff;
+}
 /*definição da navbar*/
 #proj-navbar{
 	background-color: #fff;
