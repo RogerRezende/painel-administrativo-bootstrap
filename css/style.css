@@ -14,6 +14,13 @@ body{
 #page-content-wrapper{
 	min-width: 100vw;
 }
+/*definição do media query, usando como base o menor valor de uma tela de computador*/
+@media(min-width: 768px){
+	#page-content-wrapper{
+		min-width: 0;
+		width: 100%;
+	}
+}
 /*definição da navbar*/
 #proj-navbar{
 	background-color: #fff;
