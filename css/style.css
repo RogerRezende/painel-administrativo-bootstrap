@@ -5,26 +5,35 @@
 	font-family: 'Nunito Sans', sans-serif;
 */
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Nunito:wght@200&display=swap');
-/*definição do brand*/
+/*definição do body*/
+body{
+	background: #eff1f4ff;
+}
+/*definição da navbar*/
+#proj-navbar{
+	background-color: #fff;
+	box-shadow: 8px 2px 6px rgba(164,164,164,0.3);
+}
+/*definição do brand da navbar*/
 #navbar-site-title{
 	font-family: 'Nunito', sans-serif;
 	font-size: 18px;
 	padding-left: 1.2%;
 }
-/*definição do form*/
+/*definição do form da navbar*/
 #navbar-search-form{
 	width: 350px;
 }
-/*definição do tamanho do campo busca*/
+/*definição do tamanho do campo busca da navbar*/
 #navbar-search-field{
 	width: 100%;
 }
-/*definição da imagem do profile*/
+/*definição da imagem do profile da navbar*/
 #navbar-profile img{
 	border-radius: 50%;
 	width: 12%;
 }
-/*definição da span do profile*/
+/*definição da span do profile da navbar*/
 #navbar-profile span{
 	padding-left: 4%;
 	color: #262d37ff;
