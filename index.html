@@ -57,29 +57,30 @@
 			<div class="container" id="content">
 				<!-- formulário -->
 				<h3 class="proj-main-text-h3" id="main-page-form-title">Novo Artigo</h3>
-				<div class="proj-form">
-					<form>
-						<div class="form-group">
-							<label>Autor</label>
-							<input class="form-field proj-form-field form-control" id="user-field" placeholder="Autor" type="text" name="autor">
-							<hr>
+				<div>
+					<form class="card proj-form">
+						<div class="card-body proj-form-card-body">
+							<div class="form-group">
+								<label>Autor</label>
+								<input class="form-field proj-form-field form-control" id="user-field" placeholder="Autor" type="text" name="autor">
+								<hr>
+							</div>
+							<div class="form-group">
+								<label>Título</label>
+								<input class="form-field proj-form-field form-control" id="title-field" placeholder="Título" type="text" name="titulo">
+								<hr>
+							</div>
+							<div class="form-group">
+								<label>Artigo</label>
+								<textarea class="form-field proj-form-field form-control" id="article-field" placeholder="Digite seu artigo"  type="text" name="artigo"></textarea>
+								<hr>
+							</div>
+							<div class="form-group">
+								<label>Data</label>
+								<input class="form-field proj-form-field form-control" id="date-field" placeholder="Data" type="date" name="data">
+							</div>	
 						</div>
-						<div class="form-group">
-							<label>Título</label>
-							<input class="form-field proj-form-field form-control" id="title-field" placeholder="Título" type="text" name="titulo">
-							<hr>
-						</div>
-						<div class="form-group">
-							<label>Artigo</label>
-							<textarea class="form-field proj-form-field form-control" id="article-field" placeholder="Digite seu artigo"  type="text" name="artigo"></textarea>
-							<hr>
-						</div>
-						<div class="form-group">
-							<label>Data</label>
-							<input class="form-field proj-form-field form-control" id="date-field" placeholder="Data" type="date" name="data">
-							<hr>
-						</div>
-						<div class="confirm-btns">
+						<div class="confirm-btns card-footer">
 							<button class="btn btn-primary">Criar e Adicionar Outro</button>
 							<button class="btn btn-primary">Publicar Artigo</button>
 						</div>

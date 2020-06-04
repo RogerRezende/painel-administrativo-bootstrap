@@ -151,3 +151,16 @@ body{
 	font-size: 30px;
 	color: #262d37ff;
 }
+/*definição do proj-form do card*/
+.proj-form{
+	border-radius: 10px;
+	box-shadow: 2px 2px 6px rgba(164, 164, 164, 0.3);
+}
+/*definição do form-card-body*/
+.proj-form-card-body{
+	padding: 3%;
+}
+/*definição do confirm-btns*/
+.confirm-btns{
+	background-color: #f5f7faff;
+}
