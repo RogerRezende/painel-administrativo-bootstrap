@@ -60,5 +60,12 @@
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<!-- JS do Bootstrap -->
 	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		//código para alternar a visibilidade do sidebar
+		$("#menu-toggle").click(function(event){
+			event.preventDefault();
+			$("#wrapper").toggleClass("toggled")
+		});
+	</script>
 </body>
 </html>

@@ -57,6 +57,10 @@ body{
 #page-content-wrapper{
 	min-width: 100vw;
 }
+/*definição do wrapper.toggled*/
+#wrapper.toggled #sidebar-wrapper{
+	margin-left: 0;
+}
 /*definição do media query, usando como base o menor valor de uma tela de computador*/
 @media(min-width: 768px){
 	#page-content-wrapper{
