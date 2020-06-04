@@ -53,6 +53,11 @@ body{
 	background-color: #262e39f0;
 	color: #fff;
 }
+/*definição dos ícones do list-group-item*/
+#sidebar-wrapper .list-group-item i{
+	padding-right: 5.5%;
+	font-size: 18px;
+}
 /*definição do page-content-wrapper*/
 #page-content-wrapper{
 	min-width: 100vw;
