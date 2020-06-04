@@ -29,6 +29,12 @@ body{
 	font-family: 'Nunito', sans-serif;
 	font-size: 16px;
 }
+/*definição da img do sidebar-heading*/
+#sidebar-wrapper .sidebar-heading img{
+	width: 30px;
+	padding-bottom: 3%;
+	padding-right: 3%;
+}
 /*definição do list-group*/
 #sidebar-wrapper .list-group{
 	width: 18rem;
