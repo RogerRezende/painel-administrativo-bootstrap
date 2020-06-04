@@ -141,3 +141,13 @@ body{
 	font-family: 'Nunito', sans-serif;
 	font-size: 16px;
 }
+/*definição do content da página*/
+#content{
+	margin-top: 50px;
+}
+/*definição do h3*/
+.proj-main-text-h3{
+	font-family: 'Nunito', sans-serif;
+	font-size: 30px;
+	color: #262d37ff;
+}
