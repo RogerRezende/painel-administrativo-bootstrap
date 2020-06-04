@@ -68,6 +68,22 @@ body{
 #proj-navbar{
 	background-color: #fff;
 	box-shadow: 8px 2px 6px rgba(164,164,164,0.3);
+	height: 58px;
+	padding-top: 0;
+	padding-left: 0;
+	padding-bottom: 0;
+}
+/*definição do menu-toggle*/
+#menu-toggle{
+	background-color: #262d37ff;
+	width: 82px;
+	height: 58px;
+	color: #fff;
+	padding-top: 14px;
+}
+/*definição do logo para o menu-toggle*/
+#menu-toggle img{
+	width: 30px;
 }
 /*definição do brand da navbar*/
 #navbar-site-title{
