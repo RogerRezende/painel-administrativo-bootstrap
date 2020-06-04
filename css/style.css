@@ -185,3 +185,34 @@ body{
 	font-size: 18px;
 	color: #a3a8aeff;
 }
+/*definição da tabela*/
+.table{
+	border: none;
+	border-radius: 8px;
+	box-shadow: 2px 4px 12px rgba(164, 164, 164, 0.3);
+}
+/*definição do thead da tabela*/
+.table thead{
+	background-color: #f4f6fbff;
+}
+/*definição do table-col-title*/
+.table-col-title{
+	font-family: 'Nunito', sans-serif;
+	font-size: 14px;
+	color: #78797dff;
+}
+/*definição do tbody da tabela*/
+.table tbody{
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	color: #78797dff; 
+}
+/*definição do table-tile*/
+.table-title{
+	margin-top: 5vh;
+	margin-bottom: 2vh;
+}
+/*definição do input do table-title*/
+.table-title input{
+	width: 30%;
+}
