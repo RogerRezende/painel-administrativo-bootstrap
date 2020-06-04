@@ -127,6 +127,15 @@
 						</div>
 					</form>
 				</div>
+				<!-- Gráfico -->
+				<h3 id="proj-vendas-h3">Vendas</h3>
+				<div class="card">
+					<div class="card-body">
+						<canvas id="relatorio">
+							
+						</canvas>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -146,5 +155,20 @@
 	</script>
 	<!-- Chart -->
 	<script src="js/chart/Chart.min.js"></script>
+	<script>
+		var contexto = document.getElementById("relatorio").getContext('2d');
+		var grafico = new Chart(contexto, {
+			type: 'line',
+			data: {
+				labels: ['Janeiro','Fevereiro','Março','Abril','Maio','Junho'],
+				datasets: [{
+					label: 'Vendas do Ano',
+					backgroundColor: "#5898d9ff",
+					borderColor: "5898d9ff",
+					data: [10,5,20,16,21,33]
+				}]
+			}
+		});
+	</script>
 </body>
 </html>

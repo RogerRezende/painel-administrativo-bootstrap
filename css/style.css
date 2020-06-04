@@ -216,3 +216,8 @@ body{
 .table-title input{
 	width: 30%;
 }
+/*definição do proj-vendas-h3*/
+#proj-vendas-h3{
+	margin-top: 5vh;
+	margin-bottom: 2vh;
+}
