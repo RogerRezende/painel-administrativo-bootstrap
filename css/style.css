@@ -165,6 +165,20 @@ body{
 .confirm-btns{
 	background-color: #f5f7faff;
 }
+/*definição dos buttons do confirm-btns*/
+.confirm-btns button{
+	font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 1%;
+	border-radius: 12px;
+	background-color: #5898d9ff;
+	border: none;
+}
+/*definição do hover dos buttons do confirm-btns*/
+.confirm-btns button:hover{
+	background-color: #2b74bfff;
+}
 /*definição dos labels do form-group*/
 .form-group label{
 	font-family: 'Nunito', sans-serif;
